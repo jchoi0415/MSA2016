@@ -5,7 +5,7 @@
     <title>Steam Statistics</title>
     <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -14,20 +14,21 @@
 
     <!--This is the facebook share javascript code-->
     <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '1080673495313779',
-        xfbml      : true,
-        version    : 'v2.7'
-      });
-    };
-    (function(d, s, id){
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) {return;}
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1080673495313779',
+          xfbml      : true,
+          version    : 'v2.7'
+        });
+      };
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!--This is the actual start of the page contents-->
     <h1 class="header">Steam Statistics</h1>
