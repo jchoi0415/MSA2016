@@ -2,13 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>MSA 2016 Steam Statistics</title>
+    <title>Steam Statistics</title>
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1080673495313779',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+
     <h1 class="header">Steam Statistics</h1>
-    <p>This website is for checking player's certain statistics and their current progress in the game.</p>
+
+  <div class="fb-share-button" data-href="jc-msa2016-module2.azurewebsites.net" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fjc-msa2016-module2.azurewebsites.net%2F&amp;src=sdkpreparse">Share</a></div>
+    <p1><br>Welcome to Steam Statistics, where you can check out some of the latest Steam News and information of Steam users.<br><br></p1>
+    
+    <a href="https://github.com/jchoi0415">Developer's Github: CLICK HERE!</a>
+
   </body>
 </html>

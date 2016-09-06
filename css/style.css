@@ -1,12 +1,17 @@
 .header {
-    text-align: center;
     color: brown;
-    font: Arial;
+    text-align: center;
+    font-family: Palatino;
+    font-size: 40px;
+    font-weight: bold;
 }
 
+
 body{
-    background-color: darkgrey;
-    font-size: 12;
-    font: Calibri;
+    background-color: darkgray;
+    color: black;
     text-align: center;
+    font-family: Candara;
+    font-size: 18px;
+    font-weight: normal;
 }
