@@ -15,7 +15,7 @@ body{
     color: white;
     text-align: center;
     font-family: Candara;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -36,6 +36,22 @@ body{
 }
 
 #CityCond{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#CityWind{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#CityHumid{
     color: white;
     text-align: center;
     font-family: Candara;
