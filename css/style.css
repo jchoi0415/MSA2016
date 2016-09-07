@@ -19,6 +19,30 @@ body{
     font-weight: normal;
 }
 
+#city{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#temp{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#des{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: normal;
+}
+
 #input{
     font-family: Candara;
     color: white;
@@ -35,4 +59,12 @@ body{
     background-color: sandybrown;
     width : 10%;
     border-radius: 50%;
+}
+
+#headers{
+    color: snow;
+    text-align: center;
+    font-family: Palatino;
+    font-size: 25px;
+    font-weight: bold;
 }

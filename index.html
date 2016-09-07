@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Current Weather Teller</title>
+    <title>Choiboy's Weather Talk</title>
     <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body background="sky3.jpg">
+  <body background="sky.jpg">
 
     <!--This is the Facebook SDK-->
     <script>
@@ -36,10 +36,26 @@
     
     <!--Input box for entering the steam ID-->
     <div id="input">
-        <label for="steamID">Enter City: </label>
-        <input id="steamID" style="width : 60%; color: black; text-align: center;">
-        <button id="button" type="button">Enter</button>
-    </div>
+      <label>Enter City:</label>
+      <input style="width : 50%; color: black; text-align: center;">
+      <button id="button" type="button">Enter</button>
+    </div><br>
+
+    <!--The results from the API call will be shown here-->
+    <div>
+      <p3 id="headers">Selected Location: </p3>
+      <p4 id="city">Please choose a city</p4>
+    </div><br>
+
+    <div>
+      <p3 id="headers">Current Temperature: </p3>
+      <p4 id="temp">NULL</p4>
+    </div><br>
+
+    <div>
+      <p3 id="headers">Current Condition: </p3>
+      <p4 id="des">NULL</p4>
+    </div><br>
 
     <!--Facebook sharing implementation-->    
     <br><p1>Share this page on Facebook: <p1>
