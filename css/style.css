@@ -15,3 +15,17 @@ body{
     font-size: 18px;
     font-weight: normal;
 }
+
+#input{
+    width : 40%;
+    text-align: center;
+    margin: 20px;
+    margin-left: 30%;
+}
+
+#searchbtn{
+    font-family: Candara;
+    font-size: 18px;
+    color: black;
+    width : 10%;
+}
