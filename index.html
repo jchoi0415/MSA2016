@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -15,7 +16,7 @@
     <script>
       window.fbAsyncInit = function() {
         FB.init({
-          appId      : '1080673495313779',
+          appId      : '1070173369717401',
           xfbml      : true,
           version    : 'v2.7'
         });
@@ -34,28 +35,16 @@
 
     <p2><br>Welcome to Choiboy's Weather Talk, where you can check the current weather of any city of your choice<br><br></p2>
     
-    <!--Input box for entering the steam ID-->
+    <!--Input box for entering the city-->
     <div id="input">
-      <label>Enter City:</label>
-      <input style="width : 50%; color: black; text-align: center;">
-      <button id="button" type="button">Enter</button>
+      <label for="name">Enter City:</label>
+      <input id="name" type="text" style="width : 50%; color: black; text-align: center;">
+      <button id="enter" type="button">Enter</button>
     </div><br>
 
     <!--The results from the API call will be shown here-->
-    <div>
-      <p3 id="headers">Selected Location: </p3>
-      <p4 id="city">Please choose a city</p4>
-    </div><br>
-
-    <div>
-      <p3 id="headers">Current Temperature: </p3>
-      <p4 id="temp">NULL</p4>
-    </div><br>
-
-    <div>
-      <p3 id="headers">Current Condition: </p3>
-      <p4 id="des">NULL</p4>
-    </div><br>
+    <p id="results">ENTER A CITY FOR RESULTS
+    </p>
 
     <!--Facebook sharing implementation-->    
     <br><p1>Share this page on Facebook: <p1>

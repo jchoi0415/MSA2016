@@ -19,23 +19,7 @@ body{
     font-weight: normal;
 }
 
-#city{
-    color: white;
-    text-align: center;
-    font-family: Candara;
-    font-size: 25px;
-    font-weight: normal;
-}
-
-#temp{
-    color: white;
-    text-align: center;
-    font-family: Candara;
-    font-size: 25px;
-    font-weight: normal;
-}
-
-#des{
+#results{
     color: white;
     text-align: center;
     font-family: Candara;
@@ -52,7 +36,7 @@ body{
     margin-left: 30%;
 }
 
-#button{
+#enter{
     font-family: Candara;
     font-size: 16px;
     color: black;
