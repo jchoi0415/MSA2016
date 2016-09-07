@@ -1,14 +1,16 @@
-$('#enter').click(function () {
-    var cityName = $('#name').val();
-    getWeather(cityName);
-});
-//Starts an API call to OpenWeather and display relevant data
-function getWeather(cityName) {
-    $.get("http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=455f145f98daa9855ea05d16d17817ab", function (data) {
+//This function will call the API and recieve the JSON output from it. 
+function getResult() {
+    $("#CityName").html("Receiving data...");
+    $.get("http://api.openweathermap.org/data/2.5/weather?q=" + $('#cityInput').val() + "&appid=455f145f98daa9855ea05d16d17817ab", function (data) {
         console.log(data);
-        $("#results").html(data.name + " "
-            + Math.round((data.main.temp - 273.15) * 10) / 10
-            + "\xB0C "
-            + data.weather[0].description);
+        $("#CityName").html("Selected City: [ " + data.name + " ]");
+        $("#CityTemp").html("Temperature: [ " + (data.main.temp - 273.15).toFixed(2) + "&deg;C" + " ]");
+        $("#CityCond").html("Condition: [ " + data.weather[0].description + " ]");
     });
 }
+//This function will be called when the 'enter' button is clicked on the html page which will then call the getResult function for the API call
+$(document).ready(function () {
+    $('#enter').click(function () {
+        getResult();
+    });
+});

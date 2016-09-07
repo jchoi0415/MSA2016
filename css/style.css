@@ -19,7 +19,23 @@ body{
     font-weight: normal;
 }
 
-#results{
+#CityName{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#CityTemp{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#CityCond{
     color: white;
     text-align: center;
     font-family: Candara;
