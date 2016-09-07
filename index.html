@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Steam Statistics</title>
+    <title>Current Weather Teller</title>
     <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body>
+  <body background="sky3.jpg">
 
     <!--This is the Facebook SDK-->
     <script>
@@ -30,13 +30,14 @@
     </script>
 
     <!--This is the actual start of the page contents-->
-    <h1 class="header">Steam Statistics</h1>
+    <h1 class="header">Choiboy's Weather Talk</h1>
 
-    <p2><br>Welcome to Steam Statistics, where you can check out information of Steam users<br><br></p2>
+    <p2><br>Welcome to Choiboy's Weather Talk, where you can check the current weather of any city of your choice<br><br></p2>
     
+    <!--Input box for entering the steam ID-->
     <div id="input">
-        <label for="steamID">Enter the SteamID: </label>
-        <input id="steamID" style="width : 60%; color: brown; text-align: center;">
+        <label for="steamID">Enter City: </label>
+        <input id="steamID" style="width : 60%; color: black; text-align: center;">
         <button id="button" type="button">Enter</button>
     </div>
 

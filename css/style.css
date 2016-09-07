@@ -1,5 +1,5 @@
 .header {
-    color: brown;
+    color: snow;
     text-align: center;
     font-family: Palatino;
     font-size: 40px;
@@ -8,8 +8,11 @@
 
 
 body{
-    background-color: darkgray;
-    color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
     text-align: center;
     font-family: Candara;
     font-size: 18px;
@@ -18,7 +21,7 @@ body{
 
 #input{
     font-family: Candara;
-    color: black;
+    color: white;
     width : 40%;
     text-align: center;
     margin: 20px;
@@ -29,7 +32,7 @@ body{
     font-family: Candara;
     font-size: 16px;
     color: black;
-    background-color: rosybrown;
+    background-color: sandybrown;
     width : 10%;
     border-radius: 50%;
 }
