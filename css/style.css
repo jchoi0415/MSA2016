@@ -17,15 +17,19 @@ body{
 }
 
 #input{
+    font-family: Candara;
+    color: black;
     width : 40%;
     text-align: center;
     margin: 20px;
     margin-left: 30%;
 }
 
-#searchbtn{
+#button{
     font-family: Candara;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
+    background-color: rosybrown;
     width : 10%;
+    border-radius: 50%;
 }
