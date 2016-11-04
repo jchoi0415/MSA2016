@@ -20,7 +20,7 @@ function getResult() {
                 $("#CityHumid").html("Humidity: [ " + data.main.humidity + " %" + " ]");
             }
             else {
-                $("#CityName").html("Enter an existing city!");
+                $("#CityName").html("Please enter an existing city!");
             }
         });
     }
